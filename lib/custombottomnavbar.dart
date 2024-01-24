@@ -1,6 +1,7 @@
 import 'package:eccomerce_applicationn/category.dart';
 import 'package:eccomerce_applicationn/custom_button.dart';
 import 'package:eccomerce_applicationn/home.dart';
+import 'package:eccomerce_applicationn/search.dart';
 import 'package:eccomerce_applicationn/sign_in.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,7 @@ class _customnavbarState extends State<customnavbar> {
       child: Category(),
     ),
     Container(
-      child: homepage(),
+      child: Search(),
     ),
     Container(
       child: homepage(),
